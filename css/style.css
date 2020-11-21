@@ -1,0 +1,39 @@
+.navigation-list-link, .header-mail, .header-tel {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.navigation-list-link:hover, .navigation-list-link:focus, .header-mail:hover, .header-mail:focus, .header-tel:hover, .header-tel:focus {
+    color: #2196F3;
+}
+
+.logotype {
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.part-logo {
+    color: black
+}
+
+.header-mail, .header-tel {
+    color: #757575;
+}
+
+.
