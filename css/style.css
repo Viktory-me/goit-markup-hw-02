@@ -1,3 +1,5 @@
+/*HEADER*/
+
 .navigation-list-link, .header-mail, .header-tel {
     font-family: "Roboto";
     font-size: 14px;
@@ -35,6 +37,39 @@
 .header-mail, .header-tel {
     color: #757575;
 }
-/* HERO BEGINNING/
 
+/*end HEADER*/
 
+/* HERO BEGINNING*/
+
+.hero-section {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.364;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn-title {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    background-color: #2196F3;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/*end HERO*/
