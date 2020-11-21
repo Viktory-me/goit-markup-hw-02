@@ -1,3 +1,7 @@
+ul {
+    list-style-type: none;
+}
+
 /*HEADER*/
 
 .navigation-list-link, .header-mail, .header-tel {
@@ -15,7 +19,7 @@
     color: #2196F3;
 }
 
-.logotype {
+.logotype-header {
     width: 145px;
     height: 31px;
     left: 215px;
@@ -73,3 +77,104 @@
 }
 
 /*end HERO*/
+
+/*section 1*/
+
+.about-title-idea {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    text-decoration: none;
+}
+
+.about-title-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*section worker-groupe*/
+
+.worker-groupe-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.667;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.worker-element {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.work-position {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*end section worker*/
+
+/*footer*/
+
+.footer-main {
+    background: #2F303A;
+}
+
+.logotype-footer {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.part-logo {
+    color: white;
+}
+
+.footer-adress-map {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-adress-mail, .footer-adress-call {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}

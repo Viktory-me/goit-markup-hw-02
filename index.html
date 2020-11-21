@@ -14,7 +14,7 @@
   <body>
     <header class="header">
       <nav class="navigation">
-        <a class="logotype" href="/" aria-label="логотип сайта" lang="en"
+        <a class="logotype-header" href="/" aria-label="логотип сайта" lang="en"
           >Web<span class="part-logo">Studio</span></a
         >
         <ul class="navigation-list">
@@ -79,9 +79,9 @@
         </ul>
       </section>
       <!--Чем занимаемся-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+      <section class="work-list">
+        <h2 class="work-list-title">Чем мы занимаемся</h2>
+        <ul class="work-list-example">
           <li>
             <img
               src="./images/write.jpg"
@@ -109,61 +109,73 @@
         </ul>
       </section>
       <!--our group-->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
+      <section class="worker-groupe">
+        <h2 class="worker-groupe-title">Наша команда</h2>
+        <ul class="worker-groupe-list">
+          <li class="worker-groupe-item">
             <img
               src="./images/ihor.jpg"
               alt="фото игоря"
               width="270"
               height="260"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="worker-element">Игорь Демьяненко</h3>
+            <p class="work-position">Product Designer</p>
           </li>
-          <li>
+          <li class="worker-groupe-item">
             <img
               src="./images/olga.jpg"
               alt="фото ольги"
               width="270"
               height="260"
             />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="worker-element">Ольга Репина</h3>
+            <p class="work-position">Frontend Developer</p>
           </li>
-          <li>
+          <li class="worker-groupe-item">
             <img
               src="./images/nikola.jpg"
               alt="фото николая"
               width="270"
               height="260"
             />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="worker-element">Николай Тарасов</h3>
+            <p class="work-position">Marketing</p>
           </li>
-          <li>
+          <li class="worker-groupe-item">
             <img
               src="./images/michail.jpg"
               alt="фото михаила"
               width="270"
               height="260"
             />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="worker-element">Михаил Ермаков</h3>
+            <p class="work-position">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="/" aria-label="логотип сайта" lang="en">WebStudio</a>
+    <footer class="footer-main">
+      <a class="logotype-footer" href="/" aria-label="логотип сайта" lang="en"
+        >Web<span class="part-logo">Studio</span></a
+      >
       <address>
-        <ul>
-          <li><a href="">г. Киев, пр-т Леси Украинки, 26 </a></li>
-          <li>
-            <a href="info@example.com">info@example.com</a>
+        <ul class="footer-adress">
+          <li class="footer-adress-link">
+            <a class="footer-adress-map" href=""
+              >г. Киев, пр-т Леси Украинки, 26
+            </a>
           </li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li class="footer-adress-link">
+            <a class="footer-adress-mail" href="info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li class="footer-adress-link">
+            <a class="footer-adress-call" href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
