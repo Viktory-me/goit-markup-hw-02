@@ -200,6 +200,16 @@ ul {
     border-radius: 4px;
 }
 
-.project-list {}
+.project-title {
+    font-weight: var(--font-weight-secondary);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
 
-.project-list-item {}
+.project-description {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+}
